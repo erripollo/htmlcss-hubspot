@@ -8,20 +8,99 @@
 body{
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
+    font-weight: 500;
+    color: #32495B;
+}
+
+nav{
+    height: 80px;
+}
+
+a{
+    text-decoration: none;
+    color: #32495B;
 }
 
 /* Utility css */
-clearfix::after{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.col_2{
+    float: left;
+    width: 50%;
+}
+
+.text_dx{
+    text-align: right;
+}
+
+.lh_80{
+    line-height: 80px;
+}
+
+.bg_lightblue{
+    background-color: #F4F9FD;
+}
+
+.btn{
+    padding: 10px 8px;
+}
+
+.btn_outline{
+    border: 1px solid #FE775A;
+    border-radius: 5px;
+    color: #FE775A;
+}
+
+.btn_solid{
+    border-radius: 5px;
+    background-color: #FE775A;
+    color: white;
+}
+
+.ml_10{
+    margin-left: 10px;
+}
+
+.ml_20{
+    margin-left: 20px;
 }
 
 /***********************************
 * Site Header css 
 ************************************/
 
+/* Menu top css */
+.menu_top i{
+    height: 15px;
+}
 
+.menu_top img{
+    height: 15px;
+}
+
+.menu_top > div:first-child a:last-child{
+    border-left: 2px solid #899397;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.menu_top > div:last-child a{
+    margin-left: 20px;
+}
+
+/* Menu principale css */
+.logo_header{
+    vertical-align: middle;
+}
 
 
 /***********************************
