@@ -27,6 +27,11 @@ h1{
     margin-bottom: 40px;
 }
 
+h2{
+    font-size: 1.65rem;
+    margin-bottom: 40px;
+}
+
 p{
     line-height: 1.5rem;
 }
@@ -43,6 +48,11 @@ p{
     margin: auto;
 }
 
+.container_small{
+    width: 48%;
+    margin: auto;
+}
+
 .col_2{
     float: left;
     width: 50%;
@@ -50,6 +60,10 @@ p{
 
 .text_dx{
     text-align: right;
+}
+
+.text_ctr{
+    text-align: center;
 }
 
 .lh_80{
@@ -135,7 +149,7 @@ header .bg_lightblue{
 }
 
 .text_jumbotron{
-    width: 45%;
+    width: 500px;
     position: absolute;
     top: 70px;
 }
@@ -151,7 +165,7 @@ header .bg_lightblue{
 
 /* Banner css */
 header .banner{
-    height: 85px;
+    height: 80px;
     background-color: #AFEBE4;
     border-top: 3px  solid #33475B;
     border-bottom: 3px  solid #33475B;
@@ -160,7 +174,15 @@ header .banner{
 /***********************************
 * Site Main css 
 ************************************/
+ #products_section .cube{
+     height: 200px;
+     margin-top: 50px;
+ }
 
+ #products_section .title{
+     width: 760px;
+     margin: auto;
+ }
 
 
 
