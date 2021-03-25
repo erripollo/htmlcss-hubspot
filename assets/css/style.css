@@ -1,0 +1,36 @@
+/* Common css */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+/* Utility css */
+clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/***********************************
+* Site Header css 
+************************************/
+
+
+
+
+/***********************************
+* Site Main css 
+************************************/
+
+
+
+
+/***********************************
+* Site Footer css 
+************************************/
