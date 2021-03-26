@@ -6,10 +6,11 @@
 }
 
 body{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
     font-weight: 500;
-    color: #32495B;
+    color: #33475B;
 }
 
 nav{
@@ -22,13 +23,23 @@ a{
 }
 
 h1{
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     font-weight: 700;
     margin-bottom: 40px;
 }
 
 h2{
-    font-size: 1.65rem;
+    font-size: 1.75rem;
+    margin-bottom: 40px;
+}
+
+h3{
+    font-size: 1.3rem;
+    margin-bottom: 35px;
+}
+
+h4{
+    font-size: 0.95rem;
     margin-bottom: 40px;
 }
 
@@ -44,7 +55,7 @@ p{
 }
 
 .container{
-    width: 80%;
+    width: 1080px;
     margin: auto;
 }
 
@@ -58,6 +69,16 @@ p{
     width: 50%;
 }
 
+.col_2_30{
+    float: left;
+    width: 35%;
+}
+
+.col_2_70{
+    float: left;
+    width: 65%;
+}
+
 .text_dx{
     text-align: right;
 }
@@ -66,12 +87,24 @@ p{
     text-align: center;
 }
 
+.text_lx{
+    text-align: left;
+}
+
 .lh_80{
     line-height: 80px;
 }
 
 .bg_lightblue{
     background-color: #F4F9FD;
+}
+
+.bg_white{
+    background-color: white;
+}
+
+.bg_orange{
+    background-color: #FE775A;
 }
 
 .btn{
@@ -94,12 +127,24 @@ p{
     color: white;
 }
 
+.mt_70{
+    margin-top: 70px;
+}
+
 .ml_10{
     margin-left: 10px;
 }
 
 .ml_20{
     margin-left: 20px;
+}
+
+.mr_10{
+    margin-right: 10px;
+}
+
+.mr_20{
+    margin-right: 20px;
 }
 
 /***********************************
@@ -159,7 +204,7 @@ header .bg_lightblue{
 }
 
 .text_jumbotron p:last-child{
-    font-size: 10px;
+    font-size: 11px;
     margin-top: 50px;
 }
 
@@ -174,14 +219,59 @@ header .banner{
 /***********************************
 * Site Main css 
 ************************************/
- #products_section .cube{
-     height: 200px;
-     margin-top: 50px;
+
+/* Products section css */
+#services_section .cube{
+    height: 200px;
+    margin-top: 50px;
+}
+
+#services_section .row{
+    position: relative;
+    height: 340px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+#services_section .box_middle{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ #services_section .title{
+     width: 730px;
+     margin: auto;
  }
 
- #products_section .title{
-     width: 760px;
-     margin: auto;
+ #services_section .row img{
+     height: 100px;
+     margin-bottom: 50px;
+ }
+
+ #services_section .col_2_70 p{
+     width: 550px;
+     margin-bottom: 30px;
+ }
+
+ #services_section h4{
+     text-transform: uppercase;
+ }
+
+ #services_section h4::after{
+     content: "";
+     width: 400px;
+     height: 2px;
+     background-color: #899397;
+     display: inline-block;
+     vertical-align: middle;
+     margin-left: 50px;
+ }
+
+ #services_section i{
+     color: #FE775A;
  }
 
 
