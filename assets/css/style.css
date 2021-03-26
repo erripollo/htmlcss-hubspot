@@ -81,7 +81,12 @@ p{
 
 .col_3{
     float: left;
-    width: calc(100%/3 - 40px);
+    width: calc(100% / 3 - 40px);
+}
+
+.col_4{
+    float: left;
+    width: calc(100% / 4);
 }
 
 .text_dx{
@@ -94,6 +99,15 @@ p{
 
 .text_lx{
     text-align: left;
+}
+
+.text_little{
+    font-size: 0.8rem;
+}
+
+.text_big{
+    font-size: 2.5rem;
+    font-weight: 600;
 }
 
 .lh_80{
@@ -130,6 +144,14 @@ p{
     border-radius: 5px;
     background-color: #FE775A;
     color: white;
+}
+
+.br_white{
+    border-right: 1px solid white;
+}
+
+.bb_white{
+    border-bottom: 1px solid white;
 }
 
 .h_img_100{
@@ -178,6 +200,10 @@ p{
 
 .mr_20{
     margin-right: 20px;
+}
+
+.pt_50{
+    padding-top: 50px;
 }
 
 .pb_20{
@@ -342,6 +368,33 @@ header .banner{
      display: inline-block;
  }
 
+ /* Comunity section */
+#community_section{
+    width: 100%;
+    height: 700px;
+    color: white;
+    background: linear-gradient(90deg, #00A8B9 0%, #00B9A9 100%);
+}
+
+#community_section .title{
+    width: 90%;
+    margin: auto;
+}
+
+#community_section .numbers div{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#community_section .numbers div:last-child{
+    font-size: 1.7rem;
+}
+
+.col_4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 /***********************************
 * Site Footer css 
