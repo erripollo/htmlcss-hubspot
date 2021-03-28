@@ -1,0 +1,574 @@
+/* Common css */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #33475B;
+}
+
+nav{
+    height: 80px;
+}
+
+a{
+    text-decoration: none;
+    color: #32495B;
+}
+
+a:hover{
+    color: #0091ae;
+}
+
+h1{
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+h2{
+    font-size: 1.75rem;
+    margin-bottom: 40px;
+}
+
+h3{
+    font-size: 1.3rem;
+    margin-bottom: 35px;
+}
+
+h4{
+    font-size: 0.95rem;
+    margin-bottom: 40px;
+}
+
+p{
+    line-height: 1.6rem;
+}
+
+/* Utility css */
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container{
+    width: 1080px;
+    margin: auto;
+}
+
+.container_small{
+    width: 90%;
+    margin: auto;
+}
+
+.col_2{
+    float: left;
+    width: 50%;
+}
+
+.col_2_35{
+    float: left;
+    width: 35%;
+}
+
+.col_2_65{
+    float: left;
+    width: 65%;
+}
+
+.col_3{
+    float: left;
+    width: calc(100% / 3 - 40px);
+}
+
+.col_4{
+    float: left;
+    width: calc(100% / 4);
+}
+
+.text_dx{
+    text-align: right;
+}
+
+.text_ctr{
+    text-align: center;
+}
+
+.text_lx{
+    text-align: left;
+}
+
+.text_little{
+    font-size: 0.8rem;
+}
+
+.text_big{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.lh_80{
+    line-height: 80px;
+}
+
+.bg_lightblue{
+    background-color: #F4F9FD;
+}
+
+.bg_white{
+    background-color: white;
+}
+
+.bg_orange{
+    background-color: #FE775A;
+}
+
+.btn{
+    padding: 10px 8px;
+}
+
+.btn_big{
+    padding: 20px 40px ;
+}
+
+.btn_outline{
+    border: 1px solid #FE775A;
+    border-radius: 5px;
+    color: #FE775A;
+}
+
+.btn_outline:hover{
+    color: #FE775A;
+    background-color: #fe785a21;
+}
+
+.btn_solid{
+    border-radius: 5px;
+    background-color: #FE775A;
+    color: white;
+}
+
+.btn_solid:hover{
+    background-color: #fe785a88;
+    color: white;
+    text-decoration: none;
+}
+
+.br_white{
+    border-right: 1px solid white;
+}
+
+.bb_white{
+    border-bottom: 1px solid white;
+}
+
+.h_img_100{
+    height: 100px;
+}
+
+.mt_20{
+    margin-top: 20px;
+}
+
+.mt_40{
+    margin-top: 40px;
+}
+
+.mt_50{
+    margin-top: 50px;
+}
+
+.mt_60{
+    margin-top: 60px;
+}
+
+.mt_70{
+    margin-top: 70px;
+}
+
+.mb_10{
+    margin-bottom: 10px;
+}
+
+.mb_20{
+    margin-bottom: 20px;
+}
+
+.mb_25{
+    margin-bottom: 25px;
+}
+
+.mb_30{
+    margin-bottom: 30px;
+}
+
+.mb_40{
+    margin-bottom: 40px;
+}
+
+.mb_50{
+    margin-bottom: 50px;
+}
+
+.mb_70{
+    margin-bottom: 70px;
+}
+
+.ml_10{
+    margin-left: 10px;
+}
+
+.ml_20{
+    margin-left: 20px;
+}
+
+.ml_30{
+    margin-left: 30px;
+}
+
+.mr_10{
+    margin-right: 10px;
+}
+
+.mr_20{
+    margin-right: 20px;
+}
+
+.pt_50{
+    padding-top: 50px;
+}
+
+.pt_60{
+    padding-top: 60px;
+}
+
+.pl_30{
+    padding-left: 30px;
+}
+
+.pr_100{
+    padding-right: 100px;
+}
+
+.pb_20{
+    padding-bottom: 20px;
+}
+
+.pb_50{
+    padding-bottom: 50px;
+}
+
+/***********************************
+* Site Header css 
+************************************/
+.sticky_bar{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Menu top css */
+header .bg_lightblue{
+    border-bottom: 1px solid #32495B;
+}
+
+.menu_top i{
+    height: 15px;
+}
+
+.menu_top img{
+    height: 15px;
+}
+
+.menu_top > div:first-child a:last-child{
+    border-left: 2px solid #899397;
+    padding-left: 20px;
+}
+
+/* Menu principale css */
+.logo_header{
+    vertical-align: middle;
+}
+
+/* jumbotron */
+.jumbotron{
+    width: 100%;
+    height: 600px;
+    background-color: #FFF4EF;
+    background-image: url('../img/jumbotron.png');
+    background-position: 100% 10%;
+    background-repeat: no-repeat;
+}
+
+.jumbotron .container{
+    position: relative;
+}
+
+.text_jumbotron{
+    width: 500px;
+    position: absolute;
+    top: 70px;
+}
+
+.text_jumbotron p:last-child{
+    font-size: 11px;
+}
+
+/* Banner css */
+header .banner{
+    height: 80px;
+    background-color: #AFEBE4;
+    border-top: 3px  solid #33475B;
+    border-bottom: 3px  solid #33475B;
+}
+
+/***********************************
+* Site Main css 
+************************************/
+
+/* Services section css */
+#services_section .cube{
+    height: 200px;
+}
+
+#services_section .row:nth-child(2){
+    position: relative;
+    height: 340px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+#services_section .row:nth-child(2):hover{
+    box-shadow: 5px 5px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+#services_section .box_middle{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ #services_section .title{
+     width: 730px;
+     margin: auto;
+ }
+
+ #services_section .col_2_65 p{
+     width: 550px;
+     margin-bottom: 30px;
+ }
+
+ #services_section h4{
+     text-transform: uppercase;
+ }
+
+ #services_section .col_2_65 h4::after{
+     content: "";
+     width: 400px;
+     height: 2px;
+     background-color: #899397;
+     display: inline-block;
+     vertical-align: middle;
+     margin-left: 50px;
+ }
+
+ #services_section i{
+     color: #FE775A;
+ }
+
+ /* #services_section .col_box{
+     width: 320px;
+     padding: 0 30px;
+ } */
+
+ #services_section .col_3{
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1);
+ }
+
+ #services_section .col_3:hover{
+    box-shadow: 5px 5px 2px 2px rgba(0, 0, 0, 0.1);
+ }
+
+ #services_section .col_left{
+    padding: 0 30px;
+ }
+
+ #services_section .col_ctr{
+     padding: 0 30px;
+     margin: 0 60px;
+ }
+
+ #services_section .col_right{
+     padding: 0 30px;
+ }
+
+ #services_section .col_3 p::after{
+     content: "";
+     width: 100%;
+     height: 2px;
+     background-color: #899397;
+     display: block;
+     margin: auto;
+     margin-top: 80px;
+     margin-bottom: 40px;
+ }
+
+ #services_section .col_3 ul{
+     list-style: none;
+     text-align: left;
+ }
+ 
+ #services_section .col_3 a{
+     display: inline-block;
+ }
+
+ /* Comunity section css */
+#community_section{
+    width: 100%;
+    height: 700px;
+    color: white;
+    background: linear-gradient(90deg, #00A8B9 0%, #00B9A9 100%);
+}
+
+#community_section .title{
+    width: 90%;
+    margin: auto;
+}
+
+#community_section .numbers div{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#community_section .numbers div:last-child{
+    font-size: 1.7rem;
+}
+
+.col_4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Customers section css */
+#customers_section{
+    width: 100%;
+    height: 720px;
+}
+
+#customers_section .counter{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+#customers_section .col_left, .col_right{
+    float: left;
+}
+
+#customers_section .col_left{
+    width: 25%;
+    padding-right: 40px;
+}
+
+#customers_section .col_right{
+    width: 75%;
+    padding-top: 15px;
+    padding-right: 40px;
+}
+
+#customers_section .col_right img{
+    width: 120px;
+    object-fit: contain;
+    vertical-align: middle;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+
+#customers_section .col_2 h2{
+    padding-top: 100px;
+}
+
+#customers_section .col_2 a{
+    display: inline-block;
+}
+
+#customers_section .col_2 p:last-child{
+    font-size: 11px;
+}
+
+#customers_section .col_2 img{
+    height: 350px;
+    margin-top: 70px;
+}
+
+/***********************************
+* Site Footer css 
+************************************/
+/* Section layout 4 columns */
+#site_footer{
+    width: 100%;
+    height: 620px;
+    background-color: #32495B;
+    color: white;
+}
+
+#site_footer a{
+    color: #BFCBD7;
+    line-height: 35px;
+    font-weight: 100;
+}
+
+#site_footer a:hover{
+    color: #0091ae;
+}
+
+#site_footer ul{
+    list-style: none;
+}
+
+#site_footer .btn_footer{
+    display: inline-block;
+    margin: 12px 0; 
+    font-size: 12px;
+    color: #32495B;
+    background-color: #DADEE0;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+#site_footer .btn_footer:hover{
+    background-color: #0091ae;
+    color: white;
+}
+
+#site_footer i{
+    font-size: 0.9rem;
+    margin-right: 18px;
+}
+
+/* Languages section */
+#site_footer .languages a{
+    margin-left: 20px;
+}
+
+#site_footer hr{
+    border: 1px solid #CBD6E2;
+    
+}
+
+/* Logo and copyright section */
+#site_footer .col_2 img {
+    width: 100px;
+    filter: opacity(70%);
+}
