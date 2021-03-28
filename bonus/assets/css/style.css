@@ -572,3 +572,55 @@ header .banner{
     width: 100px;
     filter: opacity(70%);
 }
+
+#site_footer .chat{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    display: inline-block;
+    position: fixed;
+    right: 10px;
+    bottom: 0;
+    z-index: 1;
+    text-align: center;
+}
+
+#site_footer .chat > img{
+    height: 50px;
+    position: relative;
+    top: 30px;
+}
+
+#site_footer .box_chat{
+    width: 250px;
+    color: #33475B;
+    border-radius: 5px;
+    text-align: left;
+    padding: 10px 20px 20px;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+#site_footer .box_chat div:first-child{
+    text-align: right;
+    font-size: 20px;
+    color: #BFCBD7;
+}
+
+#site_footer .chat .logo_chat{
+    background-color: #415C77;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.logo_chat > img{
+    width: 35px;
+}
+
