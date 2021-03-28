@@ -22,6 +22,10 @@ a{
     color: #32495B;
 }
 
+a:hover{
+    color: #0091ae;
+}
+
 h1{
     font-size: 2.7rem;
     font-weight: 700;
@@ -140,10 +144,21 @@ p{
     color: #FE775A;
 }
 
+.btn_outline:hover{
+    color: #FE775A;
+    background-color: #fe785a21;
+}
+
 .btn_solid{
     border-radius: 5px;
     background-color: #FE775A;
     color: white;
+}
+
+.btn_solid:hover{
+    background-color: #fe785a88;
+    color: white;
+    text-decoration: none;
 }
 
 .br_white{
@@ -325,6 +340,10 @@ header .banner{
     box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
+#services_section .row:nth-child(2):hover{
+    box-shadow: 5px 5px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
 #services_section .box_middle{
     width: 100%;
     position: absolute;
@@ -369,6 +388,10 @@ header .banner{
  #services_section .col_3{
     border-radius: 8px;
     box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1);
+ }
+
+ #services_section .col_3:hover{
+    box-shadow: 5px 5px 2px 2px rgba(0, 0, 0, 0.1);
  }
 
  #services_section .col_left{
@@ -500,6 +523,10 @@ header .banner{
     font-weight: 100;
 }
 
+#site_footer a:hover{
+    color: #0091ae;
+}
+
 #site_footer ul{
     list-style: none;
 }
@@ -512,6 +539,11 @@ header .banner{
     background-color: #DADEE0;
     padding: 0 10px;
     border-radius: 5px;
+}
+
+#site_footer .btn_footer:hover{
+    background-color: #0091ae;
+    color: white;
 }
 
 #site_footer i{
