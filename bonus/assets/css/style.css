@@ -397,6 +397,10 @@ p{
     transform: rotate(45deg); 
 }
 
+.software_menu .cont_menu{
+    display: inline-block;
+}
+
 .software_menu h4{
     margin-bottom: 5px;
 }
