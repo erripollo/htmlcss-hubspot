@@ -272,6 +272,11 @@ p{
 /* Menu top css */
 header .bg_lightblue{
     border-bottom: 1px solid #32495B;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .menu_top i{
@@ -288,6 +293,10 @@ header .bg_lightblue{
 }
 
 /* Menu principale css */
+.menu_header{
+    margin-top: 80px;
+}
+
 .logo_header{
     vertical-align: middle;
 }
