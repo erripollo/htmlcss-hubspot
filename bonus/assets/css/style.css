@@ -246,6 +246,10 @@ p{
     margin-right: 20px;
 }
 
+.mr_60{
+    margin-right: 60px;
+}
+
 .pt_50{
     padding-top: 50px;
 }
@@ -313,6 +317,7 @@ header .bg_lightblue{
     z-index: 3;
     visibility: hidden;
     transition: all 0.3s ease;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 .select_languages:hover ~ .languages_menu{
@@ -344,6 +349,118 @@ header .bg_lightblue{
 .logo_header{
     vertical-align: middle;
 }
+
+/* Resources menu dropdown */
+.res_menu hr{
+    border: 1px solid #cbd6e2;
+    margin: 30px 0;
+}
+
+.res_menu{
+    width: 950px;
+    position: absolute;
+    top: 70px;
+    right: -25px;
+    text-align: left;
+    background-color: white;
+    display: inline-block;
+    border: 1px solid #cbd6e2;
+    padding: 30px 30px;
+    border-radius: 3px;
+    z-index: 3;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.resources:hover ~ .res_menu{
+    visibility: visible;
+}
+
+.res_menu:hover{
+    visibility: visible;
+}
+
+.res_menu .label{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: white;
+    border-top: 1px solid  #cbd6e2;
+    border-left: 1px solid #cbd6e2;
+    top: -10px;
+    right: 210px;
+    transform: rotate(45deg); 
+}
+
+.res_menu h4{
+    margin-bottom: 15px;
+}
+
+.res_menu ul{
+    list-style: none;
+}
+
+.res_menu a{
+    line-height: 35px;
+    font-weight: 100;
+}
+
+/* About menu dropdown */
+.col_menu{
+    position: relative;
+}
+
+.about_menu{
+    width: 600px;
+    position: absolute;
+    top: 70px;
+    right: -25px;
+    text-align: left;
+    background-color: white;
+    display: inline-block;
+    border: 1px solid #cbd6e2;
+    padding: 30px 30px;
+    border-radius: 3px;
+    z-index: 3;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.about:hover ~ .about_menu{
+    visibility: visible;
+}
+
+.about_menu:hover{
+    visibility: visible;
+}
+
+.about_menu .label{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: white;
+    border-top: 1px solid  #cbd6e2;
+    border-left: 1px solid #cbd6e2;
+    top: -10px;
+    right: 20px;
+    transform: rotate(45deg); 
+}
+
+.about_menu h4{
+    margin-bottom: 15px;
+}
+
+.about_menu ul{
+    list-style: none;
+}
+
+.about_menu a{
+    line-height: 35px;
+    font-weight: 100;
+}
+
 
 /* jumbotron */
 .jumbotron{
